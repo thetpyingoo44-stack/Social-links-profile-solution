@@ -48,8 +48,9 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
-button{
+.btn{
     width: 18.75rem;
     padding: 0.625rem 0;
     margin-bottom: 1.25rem;
@@ -58,6 +59,7 @@ button{
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: #fff;
+    text-align: center;
 }
 .attribution { font-size: 0.6875rem; text-align: center; 
 color: #fff;}
@@ -69,8 +71,8 @@ color: #fff;}
         padding: 0.7rem;
         border-radius: 0;
     }
-    button{
-        width: 15rem;
+    .btn{
+        width: 85%;
     }
 
 }
