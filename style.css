@@ -43,7 +43,7 @@ span{
     margin-block-end: 1.5rem;
     color: hsl(0, 0%, 100%);
 }
-form{
+.card-link{
     display: flex;
     flex-direction: column;
     justify-content: center;
